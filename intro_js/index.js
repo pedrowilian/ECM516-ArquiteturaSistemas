@@ -1,16 +1,58 @@
+// funções 
+// function e arrow function
+// não existe sobrecarga de função, ou seja, não é possível criar duas funções com o mesmo nome, mesmo que tenham parâmetros diferentes
+// arrow function
+const eAgora = () => {1}
+const somar = (a, b) => a + b
+somar(2, 3) 
+
+const falarOi = nome => console.log('Oi, ' + nome + '!')
+falarOi('Maria')
+
+// const triplo = function(x = 5){
+//     return 3 * x
+// }
+// console.log(triplo())
+// console.log(triplo(10))
+
+// const dobro = function(x){
+//     return 2 * x
+// }
+
+// function soma(a, b){
+//     return a + b
+// }
+// const resultado = soma(2, 3)
+// console.log(resultado)
+
+// function hello(){
+//     console.log('Hello!')
+// }
+// hello()
+
+// function hello(nome){
+//     console.log('Hello, ' + nome + '!')
+// }
+// hello('João')
+
+// não existe sobrecarga de função, ou seja, não é possível criar duas funções com o mesmo nome, mesmo que tenham parâmetros diferentes
+// arrow function
+
+
+
 //coleções
-v1 = []
-v2 = []
-console.log(v1.length) // 0
-v1[0] = 2
-console.log(v1.length)
-v1[1] = "abc"
-console.log(v1.length)
-v1[10] = "João"
-console.log(v1)
-for(let i = 0; i < v1.length; i++){
-    console.log(v1[i])
-}
+// v1 = []
+// v2 = []
+// console.log(v1.length) // 0
+// v1[0] = 2
+// console.log(v1.length)
+// v1[1] = "abc"
+// console.log(v1.length)
+// v1[10] = "João"
+// console.log(v1)
+// for(let i = 0; i < v1.length; i++){
+//     console.log(v1[i])
+// }
 
 
 
